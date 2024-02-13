@@ -1,0 +1,13 @@
+let createElement = (nameOf, className, typeOfElement, destination) => {
+  if (Array.isArray(nameOf)) {
+    nameOf.forEach((el, i) => {
+      const element = document.createElement(typeOfElement);
+      element.setAttribute('class', className + i);
+      destination.appendChild(element);
+    });
+  } else {
+    document.createElement(typeOfElement);
+    el.setAttribute('class', className);
+    destination.appendChild(el);
+  }
+};
