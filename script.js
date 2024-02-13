@@ -69,7 +69,7 @@ navElements.forEach((el) => {
 logo.innerHTML = '<h1>FABLAND</h1>';
 
 //creating cart container
-
+// const [ orderNow, rightArrow, iconContainer, cartIcon, heartIcon, verticalLine] = items
 const orderNow = document.createElement('h5');
 const rightArrow = document.createElement('div');
 const iconContainer = document.createElement('div');
